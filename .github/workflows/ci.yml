@@ -11,9 +11,6 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    env:
-      GIT_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
-
     steps:
       - uses: actions/checkout@v2
 
@@ -22,7 +19,7 @@ jobs:
           git config --global user.email leleliu008@gmail.com
 
           mkdir -p ~/.ssh
-          printf '%s\n' "$GITEE_PRIVATE_KEY" > ~/.ssh/id_ed25519
+          printf '%s\n' "${{ secrets.GITEE_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
 
           cat > ~/.ssh/config <<-EOF
