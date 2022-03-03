@@ -29,6 +29,10 @@ jobs:
 
           while read repo
           do
-              git clone --bare https://github.com/leleliu008/$repo.git
-              git -C $repo.git push --mirror git@gitee.com:fpliu/$repo.git
+              case $repo in
+                maven-repo) continue ;;
+                *)
+                  git clone --bare https://github.com/leleliu008/$repo.git
+                  git -C $repo.git push --mirror git@gitee.com:fpliu/$repo.git
+              esac
           done < github-leleliu008-repos-all.txt
