@@ -13,4 +13,21 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - run:  ./run.sh 
+      - run: |
+          git config --global user.name  leleliu008
+          git config --global user.email leleliu008@gmail.com
+
+          mkdir -p ~/.ssh
+          printf '%s\n' "$GITEE_PRIVATE_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+
+          cat > ~/.ssh/config <<-EOF
+          Host *
+              StrictHostKeyChecking no
+          EOF
+
+          while read repo
+          do
+              git clone --bare https://github.com/leleliu008/$repo.git
+              git -C $repo.git push --mirror git@gitee.com:fpliu/$repo.git
+          done < github-leleliu008-repos-all.txt
