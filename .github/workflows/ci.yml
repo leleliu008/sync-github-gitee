@@ -9,21 +9,8 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    
+
     steps:
       - uses: actions/checkout@v2
 
-      - run: |
-          git config --global user.name  leleliu008
-          git config --global user.email leleliu008@gmail.com
-
-          cat > ~/.ssh/config <<-EOF
-          Host *
-            StrictHostKeyChecking no
-          EOF
-
-          for item in $(cat xx)
-          do
-            git clone --bare git@github.com:leleliu008/$item.git
-            git -C $item.git git@gitee.com:fpliu/$item.git
-          done
+      - run:  ./run.sh 
