@@ -5,6 +5,8 @@ set -ex
 git config --global user.name  leleliu008
 git config --global user.email leleliu008@gmail.com
 
+mkdir -p ~/.ssh
+
 cat > ~/.ssh/config <<EOF
 Host *
     StrictHostKeyChecking no
