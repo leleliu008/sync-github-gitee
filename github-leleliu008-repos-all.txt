@@ -1,5 +1,5 @@
 sync-github-gitee
-360jiagubao-wrapper
+jiagubao-wrapper
 AFNetworkingLogger
 AndResGuard
 AndResGuard-cli-wrapper
@@ -43,7 +43,7 @@ autoconf-prebuild
 autogen.sh
 BintrayUploadGradlePlugin
 bzip2
-C
+C-examples
 circular-progress-button
 cloud-zoom
 cmakew
