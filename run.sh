@@ -15,5 +15,5 @@ EOF
 while read repo
 do
     git clone --bare https://github.com/leleliu008/$repo.git
-    git -C $item.git push --mirror git@gitee.com:fpliu/$repo.git
+    git -C $repo.git push --mirror git@gitee.com:fpliu/$repo.git
 done < github-leleliu008-repos-all.txt
