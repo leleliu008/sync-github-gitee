@@ -32,7 +32,9 @@ jobs:
           while read repo
           do
               case $repo in
+                fsmon) continue ;;
                 maven-repo) continue ;;
+                PcapPlusPlus) continue ;;
                 *)
                   git clone --bare https://github.com/leleliu008/$repo.git
                   git -C $repo.git push --mirror git@gitee.com:fpliu/$repo.git
