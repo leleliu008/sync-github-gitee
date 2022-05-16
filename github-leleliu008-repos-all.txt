@@ -54,14 +54,11 @@ ffi
 FileTypeChecker-java
 fish-powerline
 fsmon
-git-prebuild
 github-actions-vagrant
 gnulib-cmake
 gson
-homebrew-core
 homebrew-fpliu
 IM
-install
 JDK
 jiagubao-wrapper
 kotlin-ext-android
