@@ -98,7 +98,6 @@ Rewrite-java
 Sketch-Toolbox
 sync-github-gitee
 tealdeer
-temp
 tesseract
 test
 theme-budspencer
