@@ -1,5 +1,4 @@
 AFNetworkingLogger
-AndResGuard
 AndResGuard-cli-wrapper
 android
 Android-BaseUI
