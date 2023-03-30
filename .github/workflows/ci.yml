@@ -32,9 +32,12 @@ jobs:
           while read repo
           do
               case $repo in
+                Bear)  continue ;;
                 fsmon) continue ;;
+                hexdump) continue ;;
                 maven-repo) continue ;;
                 PcapPlusPlus) continue ;;
+                golang-linux-x86_64-musl) continue ;;
                 *)
                   git clone --bare https://github.com/leleliu008/$repo.git
                   git -C $repo.git push --mirror git@gitee.com:fpliu/$repo.git
