@@ -42,4 +42,4 @@ jobs:
                   git clone --bare https://github.com/leleliu008/$repo.git
                   git -C $repo.git push --mirror git@gitee.com:fpliu/$repo.git
               esac
-          done < github-leleliu008-repos-all.txt
+          done < github-leleliu008-repos.txt

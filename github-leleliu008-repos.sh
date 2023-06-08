@@ -2,7 +2,7 @@
 
 set -ex
 
-JSON_FILE_ALL='github-leleliu008-repos-all.txt'
+JSON_FILE_ALL='github-leleliu008-repos.txt'
 
 if [ -f "$JSON_FILE_ALL" ] ; then
     mv  "$JSON_FILE_ALL" "$JSON_FILE_ALL.bak.$(date +%s)"
