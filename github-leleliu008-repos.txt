@@ -37,10 +37,8 @@ Android-VideoPlayer
 android-wheel
 androidx
 auto
-autoconf-prebuild
 autogen.sh
 autotools-setup
-Bear
 BintrayUploadGradlePlugin
 bzip2
 C-examples
@@ -52,10 +50,8 @@ ctags
 CustomFindBugsDetector
 DesignPattern
 easyexplore
-ffi
 FileTypeChecker-java
 fish-powerline
-fsmon
 github-actions-vagrant
 gmake-build
 gnulib-cmake
@@ -76,12 +72,7 @@ libimagequant
 liblanginfo
 libwordexp
 libyuv
-log4cplus
 lottie-android
-lrzip
-luau
-maven-repo
-mold
 NBSPRC-spider-nodejs
 ndk-pkg
 ndk-pkg-formula-repository-offical-core
@@ -90,11 +81,9 @@ node-crawler-img
 nvm2
 OC-Utils
 oh-my-vim
-oneTBB
 Order_NodeJS
 os
 packages-main
-PcapPlusPlus
 ppkg
 ppkg-formula-repository-offical-core
 python-prebuild
@@ -105,8 +94,6 @@ RetrofitHelper
 Rewrite-java
 Sketch-Toolbox
 sync-github-gitee
-tealdeer
-tesseract
 test
 theme-budspencer
 uppm
@@ -118,7 +105,6 @@ uppm-formula-repository-macos-arm64
 uppm-formula-repository-macos-x86_64
 uppm-formula-repository-netbsd-amd64
 uppm-formula-repository-openbsd-amd64
-utf8proc
 walle-cli-wrapper
 xcpkg
 xcpkg-formula-repository
