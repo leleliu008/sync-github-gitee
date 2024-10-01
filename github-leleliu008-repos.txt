@@ -44,16 +44,13 @@ bzip2
 C-examples
 circular-progress-button
 cloud-zoom
-cmake-build
 cmakew
-ctags
 CustomFindBugsDetector
 DesignPattern
 easyexplore
 FileTypeChecker-java
 fish-powerline
 github-actions-vagrant
-gmake-build
 gnulib-cmake
 golang-linux-x86_64-musl
 gson
