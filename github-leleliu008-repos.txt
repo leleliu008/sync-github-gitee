@@ -52,7 +52,6 @@ FileTypeChecker-java
 fish-powerline
 github-actions-vagrant
 gnulib-cmake
-golang-linux-x86_64-musl
 gson
 hexdump
 homebrew-fpliu
@@ -62,10 +61,8 @@ jiagubao-wrapper
 kotlin-ext-android
 kotlin-ext-jdk
 libbcrypt
-libdeflate
 libexecinfo
 libglob
-libimagequant
 liblanginfo
 libwordexp
 libyuv
@@ -83,7 +80,6 @@ os
 packages-main
 ppkg
 ppkg-formula-repository-offical-core
-python-prebuild
 python3-setup
 QiNiu-Filter-Android
 retrofit
