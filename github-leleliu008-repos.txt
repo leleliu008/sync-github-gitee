@@ -38,7 +38,6 @@ android-wheel
 androidx
 auto
 autogen.sh
-autotools-setup
 BintrayUploadGradlePlugin
 bzip2
 C-examples
@@ -80,7 +79,6 @@ os
 packages-main
 ppkg
 ppkg-formula-repository-offical-core
-python3-setup
 QiNiu-Filter-Android
 retrofit
 RetrofitHelper
