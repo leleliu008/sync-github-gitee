@@ -37,7 +37,6 @@ Android-VideoPlayer
 android-wheel
 androidx
 auto
-autogen.sh
 BintrayUploadGradlePlugin
 bzip2
 C-examples
