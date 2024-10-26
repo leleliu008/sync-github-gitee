@@ -34,6 +34,7 @@ jobs:
               case $repo in
                 ctags|hexdump|maven-repo)
                   continue
+                  ;;
                 *)
                   git clone --bare https://github.com/leleliu008/$repo.git
                   git -C $repo.git push --mirror git@gitee.com:fpliu/$repo.git
