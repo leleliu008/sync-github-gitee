@@ -32,7 +32,7 @@ jobs:
           while read repo
           do
               case $repo in
-                ctags|hexdump|maven-repo)
+                ctags|hexdump|maven-repo|git-test)
                   continue
                   ;;
                 *)
