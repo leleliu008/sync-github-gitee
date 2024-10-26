@@ -112,7 +112,6 @@ uppm-package-repository-android-31-aarch64
 uppm-package-repository-android-aarch64
 uppm-package-repository-dragonflybsd-6.4-x86_64
 uppm-package-repository-freebsd-13.2-amd64
-uppm-package-repository-freebsd-amd64
 uppm-package-repository-linux-aarch64
 uppm-package-repository-linux-ppc64le
 uppm-package-repository-linux-riscv64
@@ -129,11 +128,8 @@ uppm-package-repository-macos-13.0-arm64
 uppm-package-repository-macos-13.0-x86_64
 uppm-package-repository-macos-14.0-arm64
 uppm-package-repository-macos-14.0-x86_64
-uppm-package-repository-macos-x86_64
 uppm-package-repository-netbsd-9.3-amd64
-uppm-package-repository-netbsd-amd64
 uppm-package-repository-openbsd-7.4-amd64
-uppm-package-repository-openbsd-amd64
 walle-cli-wrapper
 xcpkg
 xcpkg-formula-repository
