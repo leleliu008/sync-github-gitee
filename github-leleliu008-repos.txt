@@ -59,7 +59,6 @@ github-actions-vagrant
 gnulib-cmake
 gson
 hexdump
-homebrew-fpliu
 IM
 JDK
 jiagubao-wrapper
@@ -98,7 +97,6 @@ python-distribution
 QiNiu-Filter-Android
 retrofit
 RetrofitHelper
-Rewrite-java
 ruby-distribution
 Sketch-Toolbox
 sync-github-gitee
